@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ------------------------ Description ------------------------ -->
+    <meta
+      name="description"
+      content="A clipboard website that allows you to track and organize everything you copy." />
+    <!-- ------------------------ Favicon ------------------------ -->
+    <link rel="shortcut icon" href="./img/profile.png" type="image/x-icon" />
+
+    <!-- ------------------------ Fonts ------------------------ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Inter&display=swap"
+      rel="stylesheet" />
+
+    <!-- ------------------------ TailwindCSS ------------------------ -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Clipboard Web</title>
+  </head>
+  <body>
+    <!-- ------------------------ Section: Hero ------------------------ -->
+    <section id="hero">
+      <div class="sectionContainer flex flex-col pt-16 mb-40">
+        <img src="./img/logo.svg" class="mx-auto my-16" alt="Clipboard Logo" />
+        <h2>A history of everything you copy</h2>
+        <p class="mt-8 text-2xl tracking-wide leading-normal">
+          Clipboard allows you to track and organize everything you copy.
+          Instantly access your clipboard on all your devices.
+        </p>
+
+        <!-- ------------------------ Buttons ------------------------ -->
+        <div class="buttonContainer">
+          <a
+            href="#"
+            class="shadow-lg bg-strongCyan py-4 px-14 text-xl rounded-full transition-all hover:opacity-70 duration-150">
+            Download for iOS
+          </a>
+          <a
+            href="#"
+            class="shadow-lg bg-lightBlue py-4 px-14 text-xl rounded-full transition-all hover:opacity-70 duration-150">
+            Download for Mac
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------ Section: Snippets ------------------------ -->
+    <section id="snippets">
+      <div class="sectionContainer pb-10">
+        <h2>Keep track of your snippets</h2>
+        <p class="mt-9">
+          Clipboard instantly stores any item you copy in the cloud, meaning you
+          can access your snippets immediately on all your devices. Our Mac and
+          iOS apps will help you organize everything.
+        </p>
+      </div>
+    </section>
+
+    <!-- ------------------------ Section: Features ------------------------ -->
+    <section id="features">
+      <div class="sectionContainer mt-16 my-20">
+        <div class="relative gap-16 flex flex-col md:flex-row md:space-x-32">
+          <!-- -------------- Image -------------- -->
+          <div class="md:w-1/2">
+            <img
+              src="./img/image-computer.png"
+              alt=""
+              class="md:absolute top-0 right-[50%]" />
+          </div>
+
+          <!-- -------------- Text -------------- -->
+          <div class="flex flex-col gap-10 md:text-left md:w-1/2">
+            <div>
+              <h2 class="text-2xl mb-2">Quick Search</h2>
+              <p>
+                Easily search your snippets by content, category, web address,
+                application, and more.
+              </p>
+            </div>
+
+            <div>
+              <h2 class="text-2xl mb-2">iCloud Sync</h2>
+              <p>Instantly saves and syncs snippets across all your devices.</p>
+            </div>
+
+            <div>
+              <h2 class="text-2xl mb-2">Complete History</h2>
+              <p>
+                Retrieve any snippets from the first moment you started using
+                the app.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------ Section: Access Anywhere ------------------------ -->
+    <section id="access">
+      <div class="sectionContainer">
+        <div
+          class="flex flex-col gap-24 justify-center items-center my-40 md:mt-80">
+          <div class="flex flex-col gap-10">
+            <h2>Access Clipboard Anywhere</h2>
+
+            <p>
+              Whether you’re on the go, or at your computer, you can access all
+              your Clipboard snippets in a few simple clicks.
+            </p>
+          </div>
+          <!-- --------------Image -------------- -->
+          <div class="md:w-full">
+            <img src="./img/image-devices.png" alt="" class="mx-auto" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------ Section: Supercharge ------------------------ -->
+    <section id="supercharge">
+      <div class="sectionContainer">
+        <div class="flex flex-col gap-8 items-center justify-center">
+          <h2>Supercharge your workflow</h2>
+          <p>We've got the tools to boost your productivity.</p>
+
+          <!-- -------------- Highlight -------------- -->
+          <div
+            class="flex flex-col md:flex-row items-center justify-center gap-10">
+            <div class="mt-10 flex flex-col gap-10">
+              <img src="./img/icon-blacklist.svg" alt="" class="mx-auto" />
+              <div>
+                <h2 class="text-2xl mb-2">Create Blacklists</h2>
+                <p class="text-base">
+                  Easily search your snippets by content, category, web address,
+                  application, and more.
+                </p>
+              </div>
+            </div>
+
+            <div class="mt-10 flex flex-col gap-10">
+              <img src="./img/icon-text.svg" alt="" class="mx-auto" />
+              <div>
+                <h2 class="text-2xl mb-2">Plain Text Snippets</h2>
+                <p class="text-base">
+                  Easily search your snippets by content, category, web address,
+                  application, and more.
+                </p>
+              </div>
+            </div>
+
+            <div class="mt-10 flex flex-col gap-10">
+              <img src="./img/icon-preview.svg" alt="" class="mx-auto" />
+              <div>
+                <h2 class="text-2xl mb-2">Sneak Preview</h2>
+                <p class="text-base">
+                  Easily search your snippets by content, category, web address,
+                  application, and more.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------ Section: Testimonial ------------------------ -->
+    <section id="testimonial">
+      <div class="sectionContainer">
+        <div
+          class="my-40 flex flex-col md:flex-row gap-14 md:gap-1 justify-center items-center">
+          <img src="./img/logo-google.png" alt="Google" class="mx-auto" />
+          <img src="./img/logo-ibm.png" alt="IBM" class="mx-auto" />
+          <img
+            src="./img/logo-microsoft.png"
+            alt="Microsoft"
+            class="mx-auto w-fit" />
+          <img src="./img/logo-hp.png" alt="HP" class="mx-auto" />
+          <img
+            src="./img/logo-vector-graphics.png"
+            alt="Vector"
+            class="mx-auto" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------ Section: App Download ------------------------ -->
+    <section id="app">
+      <div class="sectionContainer flex flex-col pt-16 mb-20">
+        <h2>Clipboard for iOS and MacOS</h2>
+        <p class="mt-8">
+          Available for free on the App Store. Download for Mac or iOS, sync
+          with iCloud and you're ready to start adding to your clipboard.
+        </p>
+
+        <!-- ------------------------ Buttons ------------------------ -->
+        <div class="buttonContainer">
+          <a
+            href="#"
+            class="shadow-lg bg-strongCyan py-4 px-14 text-xl rounded-full transition-all hover:opacity-70 duration-150">
+            Download for iOS
+          </a>
+
+          <a
+            href="#"
+            class="shadow-lg bg-lightBlue py-4 px-14 text-xl rounded-full transition-all hover:opacity-70 duration-150">
+            Download for Mac
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------ Section: Footer ------------------------ -->
+    <footer id="footer" class="bg-gray-50 p-3">
+      <div
+        class="sectionContainer flex flex-col md:flex-row gap-3 justify-between items-center">
+        <img src="./img/logo.svg" alt="" class="scale-50" />
+
+        <!-- ------------------------ Links ------------------------ -->
+        <ul
+          class="flex flex-col md:flex-row text-grayishBlue text-center md:text-left gap-3 md:gap-20">
+          <div class="space-y-3">
+            <li>
+              <a
+                href="#"
+                class="transition-all hover:text-strongCyan duration-150">
+                FAQs
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="#"
+                class="transition-all hover:text-strongCyan duration-150">
+                Contact Us
+              </a>
+            </li>
+          </div>
+
+          <div class="space-y-3">
+            <li>
+              <a
+                href="#"
+                class="transition-all hover:text-strongCyan duration-150">
+                Privacy Policy
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="#"
+                class="transition-all hover:text-strongCyan duration-150">
+                Press Kit
+              </a>
+            </li>
+          </div>
+
+          <li>
+            <a
+              href="#"
+              class="transition-all hover:text-strongCyan duration-150">
+              Install Guide
+            </a>
+          </li>
+        </ul>
+
+        <!-- ------------------------ Social ------------------------ -->
+        <ul class="p-6 flex flex-row gap-8 items-center justify-center">
+          <li>
+            <a href="#">
+              <img src="./img/icon-facebook.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/icon-twitter.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/icon-instagram.svg" alt="" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- ------------------------ JavaScript ------------------------ -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
